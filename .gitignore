@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Local deployment archives
+whiteboard-client*.zip
+whiteboard-client*.tar.gz
