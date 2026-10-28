@@ -1,8 +1,7 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
-
-const API_URL = '/api' ?? 'http://localhost:8080'
-console.log("API_URL",API_URL)
+const API_URL = '/api';
+//console.log("API_URL",API_URL)
 const apiClient = axios.create({
   baseURL: API_URL,
   headers: {
